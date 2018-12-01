@@ -9,3 +9,89 @@
 .center {
     text-align: center
 }
+
+.message-side-menu {
+    height: 92.8%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 7.2%;
+    left: 0;
+    background-color: #cfcfcf;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.message-side-menu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #414141;
+    display: block;
+}
+
+.message-side-menu b {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #414141;
+    display: block;
+}
+
+.message {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    width: 75%;
+    padding: 10px;
+    margin: 10px 0px;
+    margin-left: 250px;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.chat-center {
+    text-align: center
+}
+
+.end {
+    margin-bottom: 100px;
+}
+
+.textbox {
+    background-color: #ffffff;
+    top: 80%;
+}
+
+.message::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.message img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.message img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}

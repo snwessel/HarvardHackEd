@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!-- Load Navigation bar-->
+        <div id="nav-placeholder"></div>
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("navbar.html");
+            });
+        </script>
+
+        <div class="message-side-menu">
+            <a href="#"><img alt="Logo" src="images\avatar1.png" style="height:25px;"> Sue</a>
+            <a href="#"><img alt="Logo" src="images\avatar2.png" style="height:25px;"> Ralph</a>
+        </div>
+
+        <div class="chat-center">
+            <p>
+                <i>
+                    You began a conversation with Sue at 11:00am today.
+                </i>
+            </p>
+        </div>
+
+        <div class="message">
+            <img src="images\avatar3.png" alt="Avatar" class="right">
+            <p>Hey, I saw that you were interested in biotechnology. 
+                It's appeared in some of my favorite books, and I've always wanted to learn more about it. 
+                Would you be up to chat?</p>
+            <span class="time-left">11:00</span>
+        </div>
+        
+        <div class="message darker">
+            <img src="images\avatar1.png" alt="Avatar">
+            <p>Yeah, that'd be awesome! Biotechnology is what I want to go into when I graduate high school!
+                I'm always up to chat about my passions!
+            </p>
+            <span class="time-right">11:01</span>
+        </div>
+        
+        <div class="message">
+            <img src="images\avatar3.png" alt="Avatar" class="right">
+            <p>Sweet! So I was wondering, how did you learn about biotechnology? I've done a little bit of research myself,
+                but do you have any resource recommendations? I saw the new breakthrough about scientists using CRISPR on a human
+                embryo to help fix heart conditions, but what else can CRISPR accomplish? Can we do anything drastic like give
+                humans wings?
+            </p>
+            <span class="time-left">11:02</span>
+        </div>
+        
+        <div class="message darker end">
+            <img src="images\avatar1.png" alt="Avatar">
+            <h1><i class="fas fa-chevron-left"></i><i class="fas fa-ellipsis-h"><i class="fas fa-chevron-right"></i></i></h1>
+        </div>
+
+        <hr>
+
+        <div class="message textbox">
+            <p>
+                <i>Enter a message to Sue here...</i>
+            </p>
+        </div>
+    </body>
+</hmtl>
