@@ -1,5 +1,11 @@
-.image-container {
-    background-image: url("../images/BackgroundMe.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
+.dash-section {
+    padding-bottom: 20px
+}
+
+.dash-elements {
+    padding-top: 5px
+}
+
+.center {
+    text-align: center
 }
