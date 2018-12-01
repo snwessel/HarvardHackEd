@@ -13,21 +13,22 @@
     </head>
 
     <body>
+        <!-- Load Navigation bar-->
+        <div id="nav-placeholder"></div>
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("navbar.html");
+            });
+        </script>
+
         <div class="container">
-            <!-- Load Navigation bar-->
-            <div id="nav-placeholder"></div>
-            <script>
-                $(function(){
-                    $("#nav-placeholder").load("navbar.html");
-                });
-            </script>
 
             <div class="center">
                 <h3>
-                    Hey "insert_name_here"! Welcome back. Here are some posts you might want to check out.
+                    Hey Sam! Welcome back. Here are some posts you might want to check out.
                 </h3>
             </div>
-
+                
             <!--Main Content-->
             <div class="container dash-section">
                 <h3><b>Check this out!</b></h3>
