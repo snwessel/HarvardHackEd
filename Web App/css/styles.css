@@ -11,7 +11,7 @@
 }
 
 .brick-background {
-    background-color: #934e54; 
+    background-color: #862725; 
     color: #fff;
 }
 
@@ -52,6 +52,7 @@
 }
 
 .message {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 2px solid #dedede;
     background-color: #f1f1f1;
     border-radius: 5px;
@@ -66,15 +67,8 @@
     background-color: #ddd;
 }
 
-.chat-center {
-    text-align: center
-}
-
-.end {
-    margin-bottom: 100px;
-}
-
 .textbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;
     top: 80%;
 }
@@ -121,12 +115,14 @@
 }
 
 .grey-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 2px solid #9e9e9e;
     background-color: #c4c4c4;
     border-radius: 5px;
 }
 
 .light-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 2px solid #dedede;
     background-color: #f1f1f1;
     border-radius: 5px;
