@@ -9,3 +9,8 @@
 .center {
     text-align: center
 }
+
+.brick-background {
+    background-color: #934e54; 
+    color: #fff;
+}
