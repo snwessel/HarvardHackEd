@@ -10,6 +10,11 @@
     text-align: center
 }
 
+.brick-background {
+    background-color: #934e54; 
+    color: #fff;
+}
+
 .message-side-menu {
     height: 92.8%;
     width: 160px;
